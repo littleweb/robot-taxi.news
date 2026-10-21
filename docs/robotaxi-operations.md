@@ -38,4 +38,4 @@ YouTube 可经已确认频道 RSS 或外部推送接入；Facebook 使用具有�
 2. 仅在将来改回原模型流水线时，需要模型服务、预算和标注样本；本地Codex路径不依赖这些配置。
 3. 本机持续可用，或迁移到常驻Codex主机；接受调度与发布可能延迟。
 4. 公开信源白名单、公众号/视频账号与平台服务凭据。
-5. 是否启用自定义域名 robot-taxi.news；需拥有域名并配置 DNS。默认地址为 GitHub Pages 项目地址。
+5. 用户已拥有robot-taxi.news，绑定步骤见[自定义域名](custom-domain.md)。发布流程自动读取Pages域名和路径；当前尚未切换域名，仍使用GitHub Pages项目地址。
