@@ -5,6 +5,9 @@ import { loadOr404 } from "../../apps/web/app/lib/api.server.ts";
 import { SITE } from "@aihot/site";
 import sources from "../../industry/sources.json";
 import reviewed from "../../site/reviewed-bootstrap.json";
+import type { CodexEdition } from "./edition.ts";
+const editions = Object.values(import.meta.glob("../../site/editions/*.json", { eager: true, import: "default" })) as CodexEdition[];
+const mediaIndex = [...new Map([...reviewed, ...editions.flatMap(e => e.items)].map(i=>[i.url,i])).values()];
 export const handle = { home: "featured", name: "Robotaxi" };
 export async function loader({ request }: LoaderFunctionArgs) {
   const path = new URL(request.url).pathname;
@@ -13,7 +16,7 @@ export async function loader({ request }: LoaderFunctionArgs) {
   const region = path.endsWith("/china") ? "国内" : "国外";
   const ids = new Set(sources.sources.filter((s) => s.tags.includes(region)).map((s) => s.id));
   ids.add(region === "国内" ? "reviewed-hkmedia" : "reviewed-video-ev");
-  return { title: path === "/financing" ? "融资概览" : path === "/industry" ? "行业报告" : `${region}媒体`, media: path.startsWith("/media/"), region, sources: sources.sources.filter((s) => s.tags.includes(region)).map((s) => ({ name: s.name + ("enabled" in s && !s.enabled ? "（待接入）" : ""), url: "feedUrl" in s.config ? s.config.feedUrl : s.config.url })), items: path.startsWith("/media/") ? data.items.filter((i) => ids.has(i.source.id)) : data.items, images: path.startsWith("/media/") ? reviewed.filter((i) => ids.has(i.sourceId) && "image" in i && i.image).map((i) => ({ url: (i as {image:string}).image, source: i.url, title: i.title, date: i.date })) : [] };
+  return { title: path === "/financing" ? "融资概览" : path === "/industry" ? "行业报告" : `${region}媒体`, media: path.startsWith("/media/"), region, sources: sources.sources.filter((s) => s.tags.includes(region)).map((s) => ({ name: s.name + ("enabled" in s && !s.enabled ? "（待接入）" : ""), url: "feedUrl" in s.config ? s.config.feedUrl : s.config.url })), items: path.startsWith("/media/") ? data.items.filter((i) => ids.has(i.source.id) || editions.some(e=>e.items.some(a=>a.sourceId===i.source.id && a.region===region))) : data.items, images: path.startsWith("/media/") ? mediaIndex.filter((i) => (ids.has(i.sourceId) || ("region" in i && i.region === region)) && "image" in i && i.image).map((i) => ({ url: (i as {image:string}).image, source: i.url, title: i.title, date: i.date })) : [] };
 }
 export function meta({ data }: { data?: Awaited<ReturnType<typeof loader>> }) { return [{ title: `${data?.title ?? "行业观察"} · ${SITE.name}` }]; }
 export default function Page() {

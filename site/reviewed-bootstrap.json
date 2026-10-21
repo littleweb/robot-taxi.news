@@ -11,7 +11,8 @@
     "reason": "编辑核实 · 分析：进入新市场与开放无人商业服务是不同阶段，后续应关注许可和本地验证进度。",
     "category": "global",
     "quote": "Today, we are excited to announce that Waymo is laying the groundwork for our fully autonomous ride-hailing service in Spain, beginning with the Region of Madrid.",
-    "image": "https://lh3.googleusercontent.com/QlHLGlPdNdqQnvHTHF-J0ZlEnd59YJJBNmZIwcRwhSaac_cgK8eRSd-N81RegqdGfOTbiFI_OrL358Hhet70T6PTJ3OudPBZf9UGrN2wRsDi1E8=e365-s420"
+    "image": "https://lh3.googleusercontent.com/QlHLGlPdNdqQnvHTHF-J0ZlEnd59YJJBNmZIwcRwhSaac_cgK8eRSd-N81RegqdGfOTbiFI_OrL358Hhet70T6PTJ3OudPBZf9UGrN2wRsDi1E8=e365-s420",
+    "id": "h1gyt8zig7d6y5myq5jjexmfn"
   },
   {
     "sourceId": "reviewed-axios",
@@ -24,7 +25,8 @@
     "summary": "Axios 报道，Hertz 旗下 Oro Mobility 获得 8000 万美元投资，Steve Cohen 相关投资方参与。该公司布局车队运营配套。",
     "reason": "编辑核实 · 分析：车队维护、充电及场站能力值得持续跟踪。",
     "category": "funding",
-    "quote": "Exclusive: Steve Cohen backs Hertz’s robotaxi ambitions with $80M investment"
+    "quote": "Exclusive: Steve Cohen backs Hertz’s robotaxi ambitions with $80M investment",
+    "id": "zw4kf6u648oncwtodupt123t6"
   },
   {
     "sourceId": "waymo-blog",
@@ -38,7 +40,8 @@
     "reason": "编辑核实 · 分析：本地运营伙伴将成为扩张落地的重要观察点，公告不代表服务已经开放。",
     "category": "global",
     "quote": "We’re laying the groundwork for our fully autonomous ride-hailing service in Toronto, investing in local facilities and jobs, with the goal of welcoming our first riders in 2028.",
-    "image": "https://lh3.googleusercontent.com/oT69lnzKavWqyUu7BiCQCRwO5_quNkMhToRgNG_txw-llzetBvuR1663he58eSjZiEfPPVIzga1NGPvOJSlF-PbJfiAQVSboho1oVbK3Q6phCM2t=e365-s420"
+    "image": "https://lh3.googleusercontent.com/oT69lnzKavWqyUu7BiCQCRwO5_quNkMhToRgNG_txw-llzetBvuR1663he58eSjZiEfPPVIzga1NGPvOJSlF-PbJfiAQVSboho1oVbK3Q6phCM2t=e365-s420",
+    "id": "hqhixa06f4l7h33umndy2770h"
   },
   {
     "sourceId": "waymo-blog",
@@ -52,7 +55,8 @@
     "reason": "编辑核实 · 分析：机场接驳与取消邀请限制，体现服务可用性扩展；仍需查看应用中的具体运营区域。",
     "category": "deployment",
     "quote": "Starting today, anyone in San Antonio, San Diego, and Tampa can download the Waymo app and hail a fully autonomous ride, including the San Antonio International Airport.",
-    "image": "https://lh3.googleusercontent.com/GyIDhUcnpvoNXJoLyhDU5QGRWcnDhZlKvkboNr3zeog_Kqcv8nKLYSb2QSVPLVlsPG-Ur6jYrkDoGYJkhtUJtSA2OjCUDSEnZECJYfUnHG03z8iI=e365-s420"
+    "image": "https://lh3.googleusercontent.com/GyIDhUcnpvoNXJoLyhDU5QGRWcnDhZlKvkboNr3zeog_Kqcv8nKLYSb2QSVPLVlsPG-Ur6jYrkDoGYJkhtUJtSA2OjCUDSEnZECJYfUnHG03z8iI=e365-s420",
+    "id": "ue94s6y8kigkpt8xb2c92r11j"
   },
   {
     "sourceId": "waymo-blog",
@@ -65,7 +69,8 @@
     "summary": "【10月背景】Waymo 宣布完成50亿美元定期贷款，这是其首次债务融资。PIMCO、Blackstone、Sixth Street 等参与，资金用于美国及国际市场扩张；债务融资与股权融资应分开统计。",
     "reason": "编辑核实 · 背景资料，保留原始日期；部署目标与实际运营、财报期与发布日期分别阅读。",
     "category": "funding",
-    "quote": "Today, Waymo closed a $5 billion term loan, marking our first debt financing."
+    "quote": "Today, Waymo closed a $5 billion term loan, marking our first debt financing.",
+    "id": "l1j7063q3uecut2yvljb49amj"
   },
   {
     "sourceId": "waymo-blog",
@@ -78,7 +83,8 @@
     "summary": "【技术背景，2月公告】Waymo 宣布第六代 Driver 开始全自动驾驶运营，以更精简的系统配置支持多车型平台及更广泛环境部署。该条是技术演进背景，不代表10月新发布。",
     "reason": "编辑核实 · 背景资料，保留原始日期；部署目标与实际运营、财报期与发布日期分别阅读。",
     "category": "technology",
-    "quote": "Waymo will begin fully autonomous operations with its 6th-generation Driver."
+    "quote": "Waymo will begin fully autonomous operations with its 6th-generation Driver.",
+    "id": "fkul72p68m6vrbwb1juwt8l7w"
   },
   {
     "sourceId": "weride-press",
@@ -91,7 +97,8 @@
     "summary": "【规模背景，3月公告】双方宣布2026年预计交付2000辆GXR，面向国内及海外；公告称截至1月车队为1023辆。交付计划不是已在役规模，需后续财报确认兑现程度。",
     "reason": "编辑核实 · 背景资料，保留原始日期；部署目标与实际运营、财报期与发布日期分别阅读。",
     "category": "deployment",
-    "quote": "并宣布2026年预计交付2,000台Robotaxi GXR"
+    "quote": "并宣布2026年预计交付2,000台Robotaxi GXR",
+    "id": "q1y8n6bhf1atwu6yjhm0ptpcd"
   },
   {
     "sourceId": "weride-press",
@@ -104,7 +111,8 @@
     "summary": "【国内推进背景，3月公告】文远知行与腾讯云深化合作，将Robotaxi呼叫和支付接入腾讯出行服务。公告介绍广州用户的使用入口，并计划逐步扩展到更多城市。",
     "reason": "编辑核实 · 背景资料，保留原始日期；部署目标与实际运营、财报期与发布日期分别阅读。",
     "category": "china",
-    "quote": "广州地区用户可率先通过「腾讯出行服务」体验文远知行Robotaxi。"
+    "quote": "广州地区用户可率先通过「腾讯出行服务」体验文远知行Robotaxi。",
+    "id": "av5iao8p1hjln16kbeb0xrf8y"
   },
   {
     "sourceId": "pony-press",
@@ -117,7 +125,8 @@
     "summary": "【财报背景，8月18日披露】2026年第二季度公司总收入3620万美元，Robotaxi收入1210万美元；财报披露车队1975辆，年底超过3500辆为目标。数字属于该财报口径，不等于当前实时运营规模。",
     "reason": "编辑核实 · 背景资料，保留原始日期；部署目标与实际运营、财报期与发布日期分别阅读。",
     "category": "deployment",
-    "quote": "我們的自動駕駛出租車車隊規模達1,975台。"
+    "quote": "我們的自動駕駛出租車車隊規模達1,975台。",
+    "id": "y36yg3g8yfks12e4afljusdwf"
   },
   {
     "sourceId": "cnevpost",
@@ -130,7 +139,8 @@
     "summary": "【10月背景】CnEVPost 报道小鹏公布Robotaxi名称Yoyo；报道援引公司此前披露的广州2000余次内部试乘，并称无安全员载客服务以2027年为目标。名称发布未给出公众开放日期和实际运营规模。",
     "reason": "编辑核实 · 背景资料，保留原始日期；部署目标与实际运营、财报期与发布日期分别阅读。",
     "category": "china",
-    "quote": "Xpeng has officially named its robotaxi Xpeng Yoyo."
+    "quote": "Xpeng has officially named its robotaxi Xpeng Yoyo.",
+    "id": "wvdbnh3xh88bx7z8jlohas00f"
   },
   {
     "sourceId": "cnevpost",
@@ -143,7 +153,8 @@
     "summary": "【全球布局背景，7月报道】萝卜快跑与TPH签署战略合作协议，探索在哈萨克斯坦引入自动驾驶技术与出行服务。合作协议不代表无人商业服务已经开放。",
     "reason": "编辑核实 · 背景资料，保留原始日期；部署目标与实际运营、财报期与发布日期分别阅读。",
     "category": "global",
-    "quote": "Apollo Go and Kazakhstan’s TPH signed a strategic cooperation agreement."
+    "quote": "Apollo Go and Kazakhstan’s TPH signed a strategic cooperation agreement.",
+    "id": "sbkzl5utn2ui9dkev5nbu4bnq"
   },
   {
     "sourceId": "cnevpost",
@@ -156,7 +167,8 @@
     "summary": "【全球布局背景，8月报道】文远知行与丹麦GreenMobility宣布合作，计划在监管批准后于2027年上半年推出服务。GXR为拟部署平台，时间属于计划。",
     "reason": "编辑核实 · 背景资料，保留原始日期；部署目标与实际运营、财报期与发布日期分别阅读。",
     "category": "global",
-    "quote": "Subject to regulatory approvals, the two plan to launch the service to the public in the first half of 2027."
+    "quote": "Subject to regulatory approvals, the two plan to launch the service to the public in the first half of 2027.",
+    "id": "svy3dyt2y4bn2c0rcw2dof53m"
   },
   {
     "sourceId": "reviewed-hkmedia",
@@ -169,7 +181,8 @@
     "summary": "【10月15日报道，待核实现场进展】媒体称东涌公众试乘拟于10月21日起一连两周举行，车辆配后备操作员。不同报道对开始日期存在出入，本条保留原报道日期，不推断活动已经开始或属于全无人收费运营。",
     "reason": "编辑核实 · 关注公告中的运营阶段和下一项可核实里程碑。",
     "category": "china",
-    "quote": "每輛車上會有一名後備操作員坐在主駕位置。"
+    "quote": "每輛車上會有一名後備操作員坐在主駕位置。",
+    "id": "xd5da097jk0nhd3dkg9qb9nnc"
   },
   {
     "sourceId": "pony-press",
@@ -182,7 +195,8 @@
     "summary": "【10月20日公告】小马智行宣布将于11月18日公布2026年第三季度财务业绩。这是后续核对车队规模、Robotaxi收入及国内外推进进度的观察节点，尚未披露第三季度结果。",
     "reason": "编辑核实 · 设定财报观察节点，不预填尚未发布的经营数字。",
     "category": "industry",
-    "quote": "PONY AI Inc. to Report Third Quarter 2026 Financial Results on November 18, 2026"
+    "quote": "PONY AI Inc. to Report Third Quarter 2026 Financial Results on November 18, 2026",
+    "id": "pqn14dfn3igyqmq6msvke7d8v"
   },
   {
     "sourceId": "reviewed-video-ev",
@@ -199,7 +213,8 @@
     "tags": [
       "教程/实践",
       "视频"
-    ]
+    ],
+    "id": "w1xk5qa1km23256yig1rh5l0z"
   },
   {
     "sourceId": "reviewed-video-ev",
@@ -216,7 +231,8 @@
     "tags": [
       "教程/实践",
       "视频"
-    ]
+    ],
+    "id": "kkt707hflqg5c9lbfqywyr2xx"
   },
   {
     "sourceId": "reviewed-video-ev",
@@ -233,6 +249,7 @@
     "tags": [
       "教程/实践",
       "视频"
-    ]
+    ],
+    "id": "ny9ixmflrkicfsnqh7qpmd9nq"
   }
 ]

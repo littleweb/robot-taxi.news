@@ -1,0 +1,61 @@
+{
+  "date": "2026-10-21",
+  "researchedAt": "2026-10-21T05:53:41.358743Z",
+  "items": [
+    {
+      "sourceId": "waymo-blog",
+      "sourceName": "Waymo 官方",
+      "tier": "T1",
+      "entity": "waymo",
+      "date": "2026-10-20",
+      "url": "https://waymo.com/blog/2026/10/waymo-in-madrid-region/",
+      "title": "Waymo 进军马德里，目标 2027 年迎接首批乘客",
+      "summary": "Waymo 宣布为西班牙马德里地区的自动驾驶出行服务做准备。初期先进行人工驾驶，随后由受训人员在驾驶位参与技术验证；2027 年接待首批乘客属于公司目标。",
+      "reason": "Codex 来源核对 · 分析：进入新市场与开放无人商业服务是不同阶段，后续应关注许可和本地验证进度。",
+      "category": "global",
+      "quote": "Waymo 进军马德里，目标 2027 年迎接首批乘客",
+      "image": "https://lh3.googleusercontent.com/QlHLGlPdNdqQnvHTHF-J0ZlEnd59YJJBNmZIwcRwhSaac_cgK8eRSd-N81RegqdGfOTbiFI_OrL358Hhet70T6PTJ3OudPBZf9UGrN2wRsDi1E8=e365-s420",
+      "region": "国外",
+      "tags": [
+        "行业动态"
+      ],
+      "id": "h1gyt8zig7d6y5myq5jjexmfn"
+    },
+    {
+      "sourceId": "reviewed-axios",
+      "sourceName": "Axios 报道",
+      "tier": "T2",
+      "entity": null,
+      "date": "2026-10-20",
+      "url": "https://www.axios.com/2026/10/20/steve-cohen-hertz-robotaxi-80-million",
+      "title": "Oro Mobility 获 8000 万美元投资",
+      "summary": "Axios 报道，Hertz 旗下 Oro Mobility 获得 8000 万美元投资，Steve Cohen 相关投资方参与。该公司布局车队运营配套。",
+      "reason": "Codex 来源核对 · 分析：车队维护、充电及场站能力值得持续跟踪。",
+      "category": "funding",
+      "quote": "Oro Mobility 获 8000 万美元投资",
+      "region": "国外",
+      "tags": [
+        "行业动态"
+      ],
+      "id": "zw4kf6u648oncwtodupt123t6"
+    },
+    {
+      "sourceId": "pony-press",
+      "sourceName": "小马智行官方",
+      "tier": "T1",
+      "entity": "pony-ai",
+      "date": "2026-10-20",
+      "url": "https://ir.pony.ai/zh-hant/news-releases/news-release-details/pony-ai-inc-report-third-quarter-2026-financial-results-november",
+      "title": "小马智行将于11月18日披露2026年第三季度业绩",
+      "summary": "【10月20日公告】小马智行宣布将于11月18日公布2026年第三季度财务业绩。这是后续核对车队规模、Robotaxi收入及国内外推进进度的观察节点，尚未披露第三季度结果。",
+      "reason": "Codex 来源核对 · 设定财报观察节点，不预填尚未发布的经营数字。",
+      "category": "industry",
+      "quote": "小马智行将于11月18日披露2026年第三季度业绩",
+      "region": "国内",
+      "tags": [
+        "行业动态"
+      ],
+      "id": "pqn14dfn3igyqmq6msvke7d8v"
+    }
+  ]
+}

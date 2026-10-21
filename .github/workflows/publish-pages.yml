@@ -3,12 +3,10 @@ on:
   workflow_dispatch:
     inputs:
       mode:
-        description: Bootstrap reviewed edition or run live update
+        description: Publish local Codex research or bootstrap the reviewed archive
         type: choice
-        options: [bootstrap, update]
-        default: bootstrap
-  schedule:
-    - cron: '30 21 * * *' # 05:30 Asia/Shanghai, allowing collection and 07:00 report compilation
+        options: [codex, bootstrap]
+        default: codex
 permissions:
   contents: read
   pages: write
@@ -32,15 +30,10 @@ jobs:
         ports: ['5432:5432']
         options: --health-cmd "pg_isready -U postgres" --health-interval 2s --health-timeout 5s --health-retries 30
     env:
-      DATABASE_URL: ${{ secrets.DATABASE_URL || 'postgres://postgres:bootstrap-only@127.0.0.1:5432/robotaxi' }}
-      LLM_API_KEY: ${{ secrets.LLM_API_KEY }}
-      LLM_BASE_URL: ${{ vars.LLM_BASE_URL }}
-      LLM_MODEL: ${{ vars.LLM_MODEL }}
+      DATABASE_URL: postgres://postgres:bootstrap-only@127.0.0.1:5432/robotaxi
       SESSION_SECRET: ${{ secrets.SESSION_SECRET }}
       IMG_PROXY_SIGN_SECRET: ${{ secrets.IMG_PROXY_SIGN_SECRET }}
       ADMIN_PASSWORD: ${{ secrets.ADMIN_PASSWORD }}
-      SOCIALDATA_API_KEY: ${{ secrets.SOCIALDATA_API_KEY }}
-      DAJIALA_KEY: ${{ secrets.DAJIALA_KEY }}
       SITE_URL: http://127.0.0.1:3100
       WEB_PORT: '3100'
       COLLECT_ENABLED: 'false'
@@ -56,25 +49,21 @@ jobs:
           package-manager-cache: false
       - run: npm ci --no-audit --no-fund
       - name: Validate configuration and create ephemeral bootstrap secrets
-        env:
-          MODE: ${{ inputs.mode || 'update' }}
-          PERSISTENT_DATABASE: ${{ secrets.DATABASE_URL }}
         run: |
           node --input-type=module <<'JS'
           import {appendFileSync} from 'node:fs';import {randomBytes} from 'node:crypto';
-          if(process.env.MODE==='update' && (!process.env.PERSISTENT_DATABASE || !process.env.LLM_API_KEY || !process.env.LLM_BASE_URL || !process.env.LLM_MODEL))throw new Error('Configure persistent DATABASE_URL and model credentials/variables before enabling live updates');
           for(const key of ['SESSION_SECRET','IMG_PROXY_SIGN_SECRET','ADMIN_PASSWORD'])if(!process.env[key]){const value=randomBytes(32).toString('hex');console.log('::add-mask::'+value);appendFileSync(process.env.GITHUB_ENV,key+'='+value+'\n');}
           JS
       - run: npm run db:migrate && node scripts/seed.ts
       - name: Bootstrap manually verified sources
-        if: inputs.mode == 'bootstrap'
         run: node modules/robotaxi/import-reviewed.ts site/reviewed-bootstrap.json
-      - name: Collect, judge, group and compose before morning publication
-        if: inputs.mode != 'bootstrap'
-        env:
-          COLLECT_ENABLED: 'true'
-          MODEL_CALLS_ENABLED: 'true'
-        run: node modules/robotaxi/refresh.ts
+      - name: Import local Codex editions without model API calls
+        if: inputs.mode == 'codex'
+        run: |
+          for edition in site/editions/*.json; do
+            test -f "$edition" || { echo "No local Codex editions found"; exit 1; }
+            node modules/robotaxi/import-reviewed.ts "$edition" --codex
+          done
       - run: npm run typecheck && npm run build -w @aihot/web
       - name: Start original API and web servers
         run: |
