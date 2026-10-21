@@ -4,6 +4,7 @@ import { mkdir, writeFile, cp, rm } from "node:fs/promises";
 import path from "node:path";
 import { createHash } from "node:crypto";
 import { load } from "cheerio";
+import { APPEARANCE_BOOT_SCRIPT } from "../apps/web/app/lib/local-state.ts";
 const arg = (key: string, fallback: string) => { const n = process.argv.indexOf(key); return n < 0 ? fallback : process.argv[n + 1]; };
 const origin = new URL(arg("--base", "http://localhost:3100"));
 const output = path.resolve(arg("--out", "dist/static"));
@@ -17,7 +18,7 @@ const pageHref = (u: URL) => `${prefix}/${pageFile(u)}${u.hash}`;
 await rm(output, { recursive: true, force: true });
 await mkdir(output, { recursive: true });
 await cp("apps/web/build/client", output, { recursive: true });
-const pending = ["/", "/all", "/hot", "/daily", "/daily/archive", "/weekly", "/monthly", "/topics", "/industry", "/financing", "/media/international", "/media/china", "/about", "/terms", "/privacy", "/changelog", "/more"].map((p) => new URL(p, origin));
+const pending = ["/", "/all", "/hot", "/daily", "/daily/archive", "/weekly", "/monthly", "/topics", "/about", "/terms", "/privacy", "/changelog", "/more"].map((p) => new URL(p, origin));
 const seen = new Set<string>();
 const assets = new Map<string, string>();
 async function asset(u: URL) {
@@ -44,8 +45,8 @@ while (pending.length) {
   if (!res.ok) throw new Error(`public page ${id}: ${res.status}`);
   const $ = load(await res.text());
   // Static edition has no backend: keep report tabs, archive disclosures and original links as native HTML.
-  $("script, link[rel=modulepreload], link[rel=preload][as=script]").remove();
-  $("html").attr("data-theme", "dark");
+  $("script").each((_i, el) => { if ($(el).text() !== APPEARANCE_BOOT_SCRIPT) $(el).remove(); });
+  $("link[rel=modulepreload], link[rel=preload][as=script]").remove();
   $("link[rel=canonical]").attr("href", publishedUrl + u.pathname + u.search);
   $("meta[property='og:url']").attr("content", publishedUrl + u.pathname + u.search);
   $("meta[property='og:image'], meta[name='twitter:image']").remove();

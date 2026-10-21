@@ -1,8 +1,8 @@
 # RoboTaxi · Robotaxi 行业热点站
 
-基于 [AIHOT](https://github.com/KKKKhazix/AIHOT) 的原生三栏页面与采编引擎，追踪行业动态、项目规模、融资并购、全球布局、技术进展和国内推进。
+基于 [AIHOT](https://github.com/KKKKhazix/AIHOT) 的默认页面、导航与采编引擎，追踪行业动态、项目规模、融资并购、全球布局、技术进展和国内推进。
 
-当前采用[本地 Codex 晨间采编](docs/local-codex-update.md)，不需要额外模型 API 密钥或云数据库。每天06:30启动，目标08:00前完成静态发布。
+当前采用[本地 Codex 晨间采编](docs/local-codex-update.md)，不需要额外模型 API 密钥或云数据库。沿用原项目出刊配置：日报08:00、周一周报10:00、每月1日月报10:30。
 
 本站的本地运行、静态导出、GitHub Pages 发布及待配置事项见 [RoboTaxi 运行说明](docs/robotaxi-operations.md)。原框架说明保留如下。代码沿用 MIT 许可证与原始版权声明，不使用 AIHOT 品牌。
 

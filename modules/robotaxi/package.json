@@ -1,1 +1,9 @@
-{"name":"@aihot/robotaxi","private":true,"type":"module","exports":{"./module":"./module.ts","./web":"./web.tsx"},"dependencies":{"@aihot/contracts":"*","@aihot/site":"*"}}
+{
+  "name": "@aihot/robotaxi",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "@aihot/contracts": "*",
+    "@aihot/site": "*"
+  }
+}
