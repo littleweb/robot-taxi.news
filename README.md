@@ -6,6 +6,8 @@
 
 本站的本地运行、静态导出、GitHub Pages 发布及待配置事项见 [RoboTaxi 运行说明](docs/robotaxi-operations.md)。原框架说明保留如下。代码沿用 MIT 许可证与原始版权声明，不使用 AIHOT 品牌。
 
+上游关系与持续升级见[维护说明](docs/upstream-maintenance.md)。
+
 ---
 
 <p align="center">

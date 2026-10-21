@@ -18,6 +18,8 @@ const pageHref = (u: URL) => `${prefix}/${pageFile(u)}${u.hash}`;
 await rm(output, { recursive: true, force: true });
 await mkdir(output, { recursive: true });
 await cp("apps/web/build/client", output, { recursive: true });
+await mkdir(path.join(output, "assets"), { recursive: true });
+await cp(new URL("../site/static/theme.js", import.meta.url), path.join(output, "assets/static-theme.js"));
 const pending = ["/", "/all", "/hot", "/daily", "/daily/archive", "/weekly", "/monthly", "/topics", "/about", "/terms", "/privacy", "/changelog", "/more"].map((p) => new URL(p, origin));
 const seen = new Set<string>();
 const assets = new Map<string, string>();
@@ -68,8 +70,15 @@ while (pending.length) {
     if ($(el).is("img")) $(el).removeAttr("srcset sizes");
   }
   $("form").replaceWith('<p class="text-sm text-ink-4">静态阅读版不提供在线提交，请通过仓库 Issues 联系站长。</p>');
-  $("button").each((_i, el) => { const b = $(el); b.attr("disabled", "disabled").attr("title", "此操作需使用动态服务；静态版保留阅读和页面导航。"); });
+  const choices: Record<string,string> = { "深色": "dark", "跟随系统": "system", "浅色": "light" };
+  for (const group of $('[role="radiogroup"][aria-label="外观"]').toArray()) {
+    const buttons = $(group).find('button[role="radio"]');
+    if(buttons.length !== 3) throw new Error("Upstream appearance controls changed; review the static theme adapter");
+    buttons.each((_i, button) => { const choice=choices[$(button).attr("title")??""]; if(!choice)throw new Error("Unknown upstream appearance choice"); $(button).attr("data-theme-choice",choice).removeAttr("disabled"); });
+  }
+  $("button").not("[data-theme-choice]").each((_i, el) => { const b = $(el); b.attr("disabled", "disabled").attr("title", "此操作需使用动态服务；静态版保留阅读和页面导航。"); });
   $("head").append('<style>button:disabled{cursor:default}#static-edition{font:12px/1.7 system-ui;color:#89979d;padding:12px 16px;border-top:1px solid #ffffff14}</style>');
+  $("body").append(`<script src="${prefix}/assets/static-theme.js" defer></script>`);
   $("body").append(`<div id="static-edition">RoboTaxi 静态阅读版 · 导出于 ${new Date().toISOString()} · 页面日期以各期原始出刊时间为准。阅读、报告切换和往期导航可用；实时搜索、后台、收藏与反馈表单需动态服务。<a href="https://github.com/littleweb/robot-taxi.news/issues">联系站长 ↗</a></div>`);
   const file = path.join(output, pageFile(u));
   await mkdir(path.dirname(file), { recursive: true }); await writeFile(file, $.html());

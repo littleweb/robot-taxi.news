@@ -10,6 +10,7 @@
 // - offscreen code downloads/runs immediately, visible code stays plain, or raw copying changes;
 // - tiny/linked pictures become zoom buttons, or language changes keep old handlers;
 // - a deep return loses its anchor, or folded dates confuse the anchor search.
+import { readFile } from "node:fs/promises";
 import assert from "node:assert/strict";
 import { before, after, test } from "node:test";
 import { chromium, webkit, expect, type Browser } from "@playwright/test";
@@ -296,4 +297,29 @@ test('deep reading returns to its anchor, including folded dates',async()=>{
     await expect.poll(()=>page.locator(`[data-card-key="${before.key}"]`).evaluate((e,top)=>Math.abs(e.getBoundingClientRect().top-top),before.top)).toBeLessThan(2);
     await expect(page.getByRole('button',{name:'展开10月4日',exact:true})).toBeVisible();
   }finally{await context.close();}
+});
+
+
+test("static appearance controls persist, follow system changes and stay usable without storage", async () => {
+  const script=await readFile(new URL("../../../site/static/theme.js",import.meta.url),"utf8");
+  const group='<div role="radiogroup" aria-label="外观"><span aria-hidden="true"></span>'+['dark','system','light'].map(choice=>`<button role="radio" data-theme-choice="${choice}" aria-checked="${choice==='system'}">${choice}</button>`).join('')+'</div>';
+  const context=await chrome.newContext({colorScheme:'light'});
+  try {
+    const page=await context.newPage();
+    await page.route('**/static-theme.js',r=>r.fulfill({contentType:'text/javascript',body:script}));
+    await page.route('**/static-theme-fixture',r=>r.fulfill({contentType:'text/html',body:`<html><head><meta name="theme-color" media="(prefers-color-scheme: light)" content="#faf9f6"><meta name="theme-color" media="(prefers-color-scheme: dark)" content="#13191c"></head><body>${group}${group}<script src="/static-theme.js" defer></script></body></html>`}));
+    await page.goto(origin+'/static-theme-fixture');
+    await expect(page.locator('html')).toHaveAttribute('data-theme','light');
+    await page.locator('[data-theme-choice="dark"]').first().click();
+    await expect(page.locator('html')).toHaveAttribute('data-theme','dark');
+    await expect(page.locator('[data-theme-choice="dark"][aria-checked="true"]')).toHaveCount(2);
+    await page.reload();await expect(page.locator('html')).toHaveAttribute('data-theme','dark');
+    await page.locator('[data-theme-choice="system"]').first().click();
+    assert.equal(await page.evaluate(()=>localStorage.getItem('aihot-theme')),null);
+    await expect(page.locator('html')).toHaveAttribute('data-theme','light');
+    await page.emulateMedia({colorScheme:'dark'});await expect(page.locator('html')).toHaveAttribute('data-theme','dark');
+    await page.locator('[data-theme-choice="light"]').last().click();await expect(page.locator('html')).toHaveAttribute('data-theme','light');
+    await page.evaluate(()=>{Storage.prototype.setItem=()=>{throw new Error('denied')};});
+    await page.locator('[data-theme-choice="dark"]').first().click();await expect(page.locator('html')).toHaveAttribute('data-theme','dark');
+  } finally { await context.close(); }
 });
