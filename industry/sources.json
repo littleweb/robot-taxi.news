@@ -1,0 +1,194 @@
+{
+  "$comment": "RoboTaxi 初始化信源；运行时关闭外部采集。上线前逐源试抓验证。社交付费来源见 docs/robotaxi-operations.md。",
+  "sources": [
+    {
+      "id": "waymo-blog",
+      "name": "Waymo 官方",
+      "kind": "rss",
+      "config": {
+        "feedUrl": "https://waymo.com/blog/rss.xml"
+      },
+      "tier": "T1",
+      "owner_entity_id": "waymo",
+      "participation_mode": "editorial",
+      "interval_minutes": 120,
+      "tags": [
+        "国外",
+        "官方"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false
+    },
+    {
+      "id": "zoox-journal",
+      "name": "Zoox Journal",
+      "kind": "web_list",
+      "config": {
+        "url": "https://zoox.com/journal",
+        "itemSelector": "a[href*=\"/journal/\"]",
+        "linkSelector": "a",
+        "titleSelector": "a",
+        "allowUrlPrefixes": [
+          "https://zoox.com/journal/"
+        ],
+        "detail": {
+          "publishedAtSelector": "meta[property=\"article:published_time\"], time, meta[name=\"date\"]",
+          "titleSelector": "h1",
+          "maxFetches": 8
+        }
+      },
+      "tier": "T1",
+      "owner_entity_id": "zoox",
+      "participation_mode": "editorial",
+      "interval_minutes": 120,
+      "tags": [
+        "国外",
+        "官方"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": false
+    },
+    {
+      "id": "pony-press",
+      "name": "小马智行新闻",
+      "kind": "web_list",
+      "config": {
+        "url": "https://ir.pony.ai/news-events/news-releases",
+        "itemSelector": "a[href*=\"/news-releases/\"]",
+        "linkSelector": "a",
+        "titleSelector": "a",
+        "allowUrlPrefixes": [
+          "https://ir.pony.ai/news-releases/"
+        ],
+        "detail": {
+          "publishedAtSelector": "meta[property=\"article:published_time\"], time, meta[name=\"date\"]",
+          "titleSelector": "h1",
+          "maxFetches": 8
+        }
+      },
+      "tier": "T1",
+      "owner_entity_id": "pony-ai",
+      "participation_mode": "editorial",
+      "interval_minutes": 120,
+      "tags": [
+        "国内",
+        "官方"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": false
+    },
+    {
+      "id": "weride-press",
+      "name": "文远知行新闻",
+      "kind": "web_list",
+      "config": {
+        "url": "https://ir.weride.ai/news-events/press-releases",
+        "itemSelector": "a[href*=\"/news-releases/\"]",
+        "linkSelector": "a",
+        "titleSelector": "a",
+        "allowUrlPrefixes": [
+          "https://ir.weride.ai/news-releases/"
+        ],
+        "detail": {
+          "publishedAtSelector": "meta[property=\"article:published_time\"], time, meta[name=\"date\"]",
+          "titleSelector": "h1",
+          "maxFetches": 8
+        }
+      },
+      "tier": "T1",
+      "owner_entity_id": "weride",
+      "participation_mode": "editorial",
+      "interval_minutes": 120,
+      "tags": [
+        "国内",
+        "官方"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": false
+    },
+    {
+      "id": "baidu-press",
+      "name": "百度投资者新闻",
+      "kind": "web_list",
+      "config": {
+        "url": "https://ir.baidu.com/news-events/press-releases",
+        "itemSelector": "a[href*=\"/news-releases/\"]",
+        "linkSelector": "a",
+        "titleSelector": "a",
+        "allowUrlPrefixes": [
+          "https://ir.baidu.com/news-releases/"
+        ],
+        "detail": {
+          "publishedAtSelector": "meta[property=\"article:published_time\"], time, meta[name=\"date\"]",
+          "titleSelector": "h1",
+          "maxFetches": 8
+        }
+      },
+      "tier": "T1",
+      "owner_entity_id": "baidu",
+      "participation_mode": "editorial",
+      "interval_minutes": 120,
+      "tags": [
+        "国内",
+        "官方"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": false
+    },
+    {
+      "id": "techcrunch-transportation",
+      "name": "TechCrunch Transportation",
+      "kind": "rss",
+      "config": {
+        "feedUrl": "https://techcrunch.com/category/transportation/feed/"
+      },
+      "tier": "T2",
+      "participation_mode": "editorial",
+      "interval_minutes": 120,
+      "tags": [
+        "国外",
+        "媒体"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false
+    },
+    {
+      "id": "electrek",
+      "name": "Electrek",
+      "kind": "rss",
+      "config": {
+        "feedUrl": "https://electrek.co/feed/"
+      },
+      "tier": "T2",
+      "participation_mode": "editorial",
+      "interval_minutes": 120,
+      "tags": [
+        "国外",
+        "媒体"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false
+    },
+    {
+      "id": "cnevpost",
+      "name": "CnEVPost",
+      "kind": "rss",
+      "config": {
+        "feedUrl": "https://cnevpost.com/feed/"
+      },
+      "tier": "T2",
+      "participation_mode": "editorial",
+      "interval_minutes": 120,
+      "tags": [
+        "国内",
+        "媒体"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false
+    }
+  ]
+}

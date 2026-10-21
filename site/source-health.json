@@ -1,0 +1,18 @@
+{
+  "checkedDate": "2026-10-21",
+  "successful": [
+    "electrek",
+    "techcrunch-transportation",
+    "cnevpost"
+  ],
+  "networkFailure": [
+    "waymo-blog"
+  ],
+  "disabledPendingConfirmation": {
+    "zoox-journal": "原站返回脚本壳，无静态新闻条目",
+    "weride-press": "列表路径404，待确认可读官方列表",
+    "pony-press": "本次试抓HTTP403，待授权入口",
+    "baidu-press": "本次试抓HTTP403，待授权入口"
+  },
+  "note": "试抓不调用模型、不代表完成正式采集或平台全量覆盖。"
+}

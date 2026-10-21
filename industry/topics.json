@@ -1,0 +1,253 @@
+{
+  "groups": [
+    {
+      "key": "company",
+      "name": "公司与运营商",
+      "blurb": "追踪全球公司与国内企业推进"
+    },
+    {
+      "key": "field",
+      "name": "行业方向",
+      "blurb": "规模、融资、布局与技术"
+    },
+    {
+      "key": "genre",
+      "name": "内容形态",
+      "blurb": "公告、研究与图文视频"
+    }
+  ],
+  "topics": [
+    {
+      "slug": "waymo",
+      "name": "Waymo",
+      "group": "company",
+      "entityId": "waymo",
+      "definition": "Waymo 的项目规模、融资、全球布局、技术和运营进度。",
+      "aliases": [
+        "Waymo",
+        "Waymo One",
+        "Waymo Driver"
+      ]
+    },
+    {
+      "slug": "tesla",
+      "name": "Tesla",
+      "group": "company",
+      "entityId": "tesla",
+      "definition": "Tesla 的项目规模、融资、全球布局、技术和运营进度。",
+      "aliases": [
+        "Tesla",
+        "特斯拉",
+        "Cybercab",
+        "FSD"
+      ]
+    },
+    {
+      "slug": "zoox",
+      "name": "Zoox",
+      "group": "company",
+      "entityId": "zoox",
+      "definition": "Zoox 的项目规模、融资、全球布局、技术和运营进度。"
+    },
+    {
+      "slug": "apollo-go",
+      "name": "Apollo Go",
+      "group": "company",
+      "entityId": "apollo-go",
+      "definition": "Apollo Go 的项目规模、融资、全球布局、技术和运营进度。"
+    },
+    {
+      "slug": "pony-ai",
+      "name": "Pony.ai",
+      "group": "company",
+      "entityId": "pony-ai",
+      "definition": "Pony.ai 的项目规模、融资、全球布局、技术和运营进度。"
+    },
+    {
+      "slug": "weride",
+      "name": "WeRide",
+      "group": "company",
+      "entityId": "weride",
+      "definition": "WeRide 的项目规模、融资、全球布局、技术和运营进度。"
+    },
+    {
+      "slug": "autox",
+      "name": "AutoX",
+      "group": "company",
+      "entityId": "autox",
+      "definition": "AutoX 的项目规模、融资、全球布局、技术和运营进度。"
+    },
+    {
+      "slug": "didi",
+      "name": "滴滴自动驾驶",
+      "group": "company",
+      "entityId": "didi",
+      "definition": "滴滴自动驾驶 的项目规模、融资、全球布局、技术和运营进度。"
+    },
+    {
+      "slug": "momenta",
+      "name": "Momenta",
+      "group": "company",
+      "entityId": "momenta",
+      "definition": "Momenta 的项目规模、融资、全球布局、技术和运营进度。"
+    },
+    {
+      "slug": "ontime",
+      "name": "如祺出行",
+      "group": "company",
+      "entityId": "ontime",
+      "definition": "如祺出行 的项目规模、融资、全球布局、技术和运营进度。"
+    },
+    {
+      "slug": "uber",
+      "name": "Uber",
+      "group": "company",
+      "entityId": "uber",
+      "definition": "Uber 的项目规模、融资、全球布局、技术和运营进度。"
+    },
+    {
+      "slug": "lyft",
+      "name": "Lyft",
+      "group": "company",
+      "entityId": "lyft",
+      "definition": "Lyft 的项目规模、融资、全球布局、技术和运营进度。"
+    },
+    {
+      "slug": "nuro",
+      "name": "Nuro",
+      "group": "company",
+      "entityId": "nuro",
+      "definition": "Nuro 的项目规模、融资、全球布局、技术和运营进度。"
+    },
+    {
+      "slug": "wayve",
+      "name": "Wayve",
+      "group": "company",
+      "entityId": "wayve",
+      "definition": "Wayve 的项目规模、融资、全球布局、技术和运营进度。"
+    },
+    {
+      "slug": "mobileye",
+      "name": "Mobileye",
+      "group": "company",
+      "entityId": "mobileye",
+      "definition": "Mobileye 的项目规模、融资、全球布局、技术和运营进度。"
+    },
+    {
+      "slug": "nvidia",
+      "name": "NVIDIA",
+      "group": "company",
+      "entityId": "nvidia",
+      "definition": "NVIDIA 的项目规模、融资、全球布局、技术和运营进度。"
+    },
+    {
+      "slug": "baidu",
+      "name": "百度",
+      "group": "company",
+      "entityId": "baidu",
+      "definition": "百度 的项目规模、融资、全球布局、技术和运营进度。"
+    },
+    {
+      "slug": "xpeng",
+      "name": "小鹏",
+      "group": "company",
+      "entityId": "xpeng",
+      "definition": "小鹏 的项目规模、融资、全球布局、技术和运营进度。"
+    },
+    {
+      "slug": "aurora",
+      "name": "Aurora",
+      "group": "company",
+      "entityId": "aurora",
+      "definition": "Aurora 的项目规模、融资、全球布局、技术和运营进度。"
+    },
+    {
+      "slug": "motional",
+      "name": "Motional",
+      "group": "company",
+      "entityId": "motional",
+      "definition": "Motional 的项目规模、融资、全球布局、技术和运营进度。"
+    },
+    {
+      "slug": "fleet",
+      "name": "车队与规模",
+      "group": "field",
+      "tags": [
+        "规模披露"
+      ],
+      "definition": "跟踪 Robotaxi 车队与规模，保留原始来源和阶段限定。"
+    },
+    {
+      "slug": "funding",
+      "name": "融资并购",
+      "group": "field",
+      "tags": [
+        "融资并购"
+      ],
+      "definition": "跟踪 Robotaxi 融资并购，保留原始来源和阶段限定。"
+    },
+    {
+      "slug": "expansion",
+      "name": "全球布局",
+      "group": "field",
+      "tags": [
+        "全球布局"
+      ],
+      "definition": "跟踪 Robotaxi 全球布局，保留原始来源和阶段限定。"
+    },
+    {
+      "slug": "china",
+      "name": "国内推进",
+      "group": "field",
+      "tags": [
+        "国内进展"
+      ],
+      "definition": "跟踪 Robotaxi 国内推进，保留原始来源和阶段限定。"
+    },
+    {
+      "slug": "end-to-end",
+      "name": "端到端自动驾驶",
+      "group": "field",
+      "tags": [
+        "端到端"
+      ],
+      "definition": "端到端自动驾驶的方法、验证和真实能力边界。"
+    },
+    {
+      "slug": "technology",
+      "name": "技术进展",
+      "group": "field",
+      "tags": [
+        "技术发布"
+      ],
+      "definition": "跟踪 Robotaxi 技术进展，保留原始来源和阶段限定。"
+    },
+    {
+      "slug": "safety",
+      "name": "安全与监管",
+      "group": "field",
+      "tags": [
+        "安全/事故"
+      ],
+      "definition": "跟踪 Robotaxi 安全与监管，保留原始来源和阶段限定。"
+    },
+    {
+      "slug": "video",
+      "name": "视频观察",
+      "group": "genre",
+      "tags": [
+        "视频"
+      ],
+      "definition": "公开且可追溯的视频与乘坐实测。"
+    },
+    {
+      "slug": "research",
+      "name": "研究报告",
+      "group": "genre",
+      "tags": [
+        "论文/研究"
+      ],
+      "definition": "自动驾驶研究与安全报告。"
+    }
+  ]
+}
