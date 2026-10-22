@@ -1,0 +1,117 @@
+{
+  "date": "2026-10-22",
+  "researchedAt": "2026-10-22T00:09:41.303610+00:00",
+  "items": [
+    {
+      "sourceId": "waymo-blog",
+      "sourceName": "Waymo 官方",
+      "tier": "T1",
+      "entity": "waymo",
+      "date": "2026-10-21",
+      "url": "https://waymo.com/blog/shorts/las-airport/",
+      "title": "Waymo 开通拉斯维加斯机场接驳，先向现有乘客开放",
+      "summary": "Waymo于10月21日宣布，拉斯维加斯现有用户可以乘坐无人驾驶车辆往返Harry Reid国际机场。上下客点位于T1、T3航站楼Ground Zero层专用区域，可连接当前24平方英里的服务区。公司表示将逐步增加用户，尚未向所有人开放。",
+      "reason": "Codex来源核对 · 机场接驳已开始，开放对象与覆盖边界仍有限，不能写成全城全面开放。",
+      "category": "global",
+      "quote": "Current Waymo riders in Las Vegas now have airport access",
+      "region": "国外",
+      "tags": [
+        "全球布局",
+        "图像"
+      ],
+      "image": "https://lh3.googleusercontent.com/VLRcN_nJf5hK4WawnXm4--X4Nd8l1CKrcVUWGNbG_o6GKEyBLhnYDycuiBrLjeklr02wXinkc83L9CcnWbyquOeCCetPld7XdEDhVsSfZ5ZwZ6Dnjg"
+    },
+    {
+      "sourceId": "bolt-official",
+      "sourceName": "Bolt 官方新闻稿",
+      "tier": "T1",
+      "entity": null,
+      "date": "2026-10-21",
+      "url": "https://news.cision.com/bolt/r/bolt-picks-nvidia-alpamayo-stack-to-drive-its-autonomous-vehicles-across-europe,c4412935",
+      "title": "Bolt 选定 NVIDIA 自动驾驶软件，马德里2027年先开展数据采集",
+      "summary": "Bolt宣布欧洲Robotaxi项目采用NVIDIA Alpamayo Stack，首先用于Lucid车辆。2027年马德里阶段拟采集真实道路数据用于开发验证，仍须监管批准；德国、法国为后续重点市场。至少2.5万辆L4-ready Lucid是欧洲整体部署计划，2035年10万辆自动驾驶车辆是长期目标，均非已运营规模。",
+      "reason": "Codex来源核对 · 软件供应商落定是本次新增信息；既有采购规划与马德里初期测试规模分开描述。",
+      "category": "global",
+      "quote": "Bolt picks NVIDIA Alpamayo Stack to drive its autonomous vehicles across Europe",
+      "region": "国外",
+      "tags": [
+        "全球布局",
+        "L4"
+      ]
+    },
+    {
+      "sourceId": "tesla-ir",
+      "sourceName": "Tesla 投资者关系",
+      "tier": "T1",
+      "entity": "tesla",
+      "date": "2026-10-21",
+      "url": "https://ir.tesla.com/_flysystem/s3/sec/000162828026066738/tsla-20261021-gen.pdf",
+      "title": "Tesla 三季报披露Robotaxi季度末累计无人行驶接近200万英里",
+      "summary": "Tesla于10月21日发布三季度更新，称季度末Robotaxi累计无人行驶里程接近200万英里，累计量较上一季度末增长至约8倍。Cybercab已于9月3日在奥斯汀加入服务，奥斯汀运营时间为早6点至午夜；公司计划通过增加车辆与优化调度降低等待时间。报告同时附有Cybercab奥斯汀发布现场照片。",
+      "reason": "Codex来源核对 · 采用季度末统计，不与10月实时计数混用；里程为公司披露，财报未单独给出Robotaxi盈利。",
+      "category": "deployment",
+      "quote": "nearly two million cumulative unsupervised miles",
+      "region": "国外",
+      "tags": [
+        "项目规模",
+        "图像"
+      ]
+    },
+    {
+      "sourceId": "tesla-safety",
+      "sourceName": "Tesla 官方安全报告",
+      "tier": "T1",
+      "entity": "tesla",
+      "date": "2026-10-21",
+      "url": "https://www.tesla.com/robotaxi/safety",
+      "title": "Tesla 上线Robotaxi安全报告，明确统计排除随车安全员阶段",
+      "summary": "Tesla新安全报告的方法说明将2026年1月22日至10月18日车内无安全员的运营作为统计窗口，并包括远程人员协助或接管期间的应报告碰撞。公司披露奥斯汀、达拉斯、休斯敦合计295万英里，占同期总里程95%。伤者指标只计Robotaxi首先接触的碰撞，部分其他事故中的伤情不计入该指标；实时计数器为估算值。",
+      "reason": "Codex来源核对 · 安全结果由企业自报；人类对照与Robotaxi对“首先接触”的定义不同，不能据此直接证明事故风险倍数优势。",
+      "category": "industry",
+      "quote": "This report excludes those events",
+      "region": "国外",
+      "tags": [
+        "行业动态",
+        "安全"
+      ]
+    },
+    {
+      "sourceId": "nvidia-ir",
+      "sourceName": "NVIDIA 官方",
+      "tier": "T1",
+      "entity": "nvidia",
+      "date": "2026-10-21",
+      "url": "https://investor.nvidia.com/news/press-release-details/2026/European-Mobility-Leaders-Build-Safe-Vehicles-and-Robotaxi-Fleets-on-NVIDIA-Hyperion/default.aspx",
+      "title": "NVIDIA 发布Halos SAFE，连接仿真、实车测试和车队监测",
+      "summary": "NVIDIA在GTC柏林发布Halos SAFE安全评估框架，与dSPACE、IVEX、德国莱茵TÜV等合作，将仿真、软硬件在环、道路测试及车队监测连接为可追溯安全证据流程。同时介绍面向车端场景理解与规划的20亿参数Alpamayo 2 Edge，设计运行频率10Hz。相关能力仍存在开发与按可用性提供的限制。",
+      "reason": "Codex来源核对 · 关注独立于Bolt部署计划的验证工具更新；发布工具不等于获得L4上路许可或已证明道路安全效果。",
+      "category": "technology",
+      "quote": "NVIDIA introduces Halos SAFE",
+      "region": "国外",
+      "tags": [
+        "技术进展",
+        "仿真",
+        "安全"
+      ],
+      "image": "https://ml.globenewswire.com/Resource/Download/6facbac6-d80f-4d4b-b166-891b08cf8ec4?size=3"
+    },
+    {
+      "sourceId": "codex-ntc",
+      "sourceName": "网通社（凤凰网）",
+      "tier": "T2",
+      "entity": null,
+      "date": "2026-10-21",
+      "url": "https://auto.ifeng.com/c/8xPFYgOLyLT",
+      "title": "何小鹏提出安全、场景覆盖与付费意愿三项自动驾驶指标",
+      "summary": "据网通社10月21日大会报道，何小鹏认为自动驾驶下一阶段应关注安全碰撞里程、全场景覆盖率及用户付费比例。报道回顾小鹏8月披露的广州超过2000次Robotaxi内测订单，以及2027年无安全员载客运营目标；这些属于既有披露与未来计划，并非10月新增订单或已实现无人运营。",
+      "reason": "Codex来源核对 · 本日新增为大会观点；财联社同日独立报道核对三项指标。国内测试、商业载客与无人运营应分别观察。",
+      "category": "china",
+      "quote": "安全碰撞里程、用户全场景覆盖率、用户愿意付费的比例",
+      "region": "国内",
+      "tags": [
+        "国内进展",
+        "中国"
+      ]
+    }
+  ]
+}
