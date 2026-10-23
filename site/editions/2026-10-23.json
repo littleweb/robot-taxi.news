@@ -1,0 +1,63 @@
+{
+  "date": "2026-10-23",
+  "researchedAt": "2026-10-23T00:03:43.520634+00:00",
+  "items": [
+    {
+      "sourceId": "codex-reuters",
+      "sourceName": "Reuters（Claims Journal）",
+      "tier": "T2",
+      "entity": "tesla",
+      "date": "2026-10-22",
+      "url": "https://www.claimsjournal.com/news/national/2026/10/22/340879.htm",
+      "title": "Tesla 计划年底小规模交付Cybercab，监管调查仍在进行",
+      "summary": "路透社10月22日报道，Tesla高管在三季度电话会上表示，争取2026年底向客户少量交付Cybercab，同时仍以自营出行车队为主，并计划11月把Cybercab服务扩展至达拉斯。美国NHTSA仍在调查无方向盘、踏板等人工控制装置车型的安全认证依据，Tesla回复期限为10月30日。上述交付和扩城均为公司计划，尚非完成事项。",
+      "reason": "Codex来源核对 · 本次新增为客户交付及达拉斯时间表，不重复昨日季度里程报道。保留监管调查背景，不能把自我认证写成监管已批准。",
+      "category": "deployment",
+      "quote": "Tesla is aiming to start selling its Cybercab robotaxis",
+      "region": "国外",
+      "tags": [
+        "项目规模",
+        "L4"
+      ]
+    },
+    {
+      "sourceId": "codex-kddi",
+      "sourceName": "KDDI 官方",
+      "tier": "T1",
+      "entity": null,
+      "date": "2026-10-22",
+      "url": "https://newsroom.kddi.com/news/detail/kddi_nr-1203_4769.html",
+      "title": "KDDI 开发一对多L4远程监控助手，11月开始模拟验证",
+      "summary": "KDDI宣布开发辅助一名监控人员管理多辆L4自动驾驶车辆的AI助手：当多辆车异常停车时，持续分析车况和周边变化，为人工监控人员排序并建议应对。公司计划11月在移动控制中心开展多车同时异常等场景验证，目标2027年以后尽早应用。公告涉及巴士、货运等自动驾驶运营体系，未宣布Robotaxi车队上线。配图为系统提示界面示意。",
+      "reason": "Codex来源核对 · 与Robotaxi规模运营相关的远程监控工程进展；AI辅助判断不等于取消人工职责，验证尚未完成。",
+      "category": "technology",
+      "quote": "2026年11月から",
+      "region": "国外",
+      "tags": [
+        "技术进展",
+        "远程协助",
+        "L4",
+        "图像"
+      ],
+      "image": "https://newsroom.kddi.com/news/assets/2026/kddi_nr-1203_4769/kddi_nr-1203_4769_img_01.png"
+    },
+    {
+      "sourceId": "codex-cls",
+      "sourceName": "财联社",
+      "tier": "T2",
+      "entity": "weride",
+      "date": "2026-10-22T10:16:27+08:00",
+      "url": "https://api3.cls.cn/share/article/2511825",
+      "title": "文远知行关联企业在横琴设立投资合伙企业，披露出资额1600万元",
+      "summary": "财联社10月22日引述天眼查信息，珠海横琴晶烁投资合伙企业（有限合伙）近日成立，台州文远知行智能科技有限公司担任执行事务合伙人并出资99%，企业披露出资额1600万元人民币，业务范围包含自有资金投资及企业管理咨询。报道未披露实缴进度、具体投向或Robotaxi车辆投放安排。",
+      "reason": "Codex来源核对 · 属于国内公司组织与投资架构动态，1600万元是合伙企业出资额，不能当作文远知行完成新一轮融资或新增车队投资。",
+      "category": "china",
+      "quote": "出资额1600万人民币",
+      "region": "国内",
+      "tags": [
+        "国内进展",
+        "中国"
+      ]
+    }
+  ]
+}
