@@ -1,0 +1,84 @@
+{
+  "date": "2026-10-24",
+  "researchedAt": "2026-10-24T00:08:09.913884+00:00",
+  "items": [
+    {
+      "sourceId": "codex-indrive",
+      "sourceName": "inDrive 官方",
+      "tier": "T1",
+      "entity": "pony-ai",
+      "date": "2026-10-23",
+      "url": "https://blog.indrive.com/en-co/article/indrive-and-pony-ai-announce-collaboration-to-explore-autonomous-mobility-in-kazakhstan-built-on-nvidia-hyperion",
+      "title": "小马智行、inDrive与NVIDIA签署备忘录，评估哈萨克斯坦Robotaxi项目",
+      "summary": "inDrive于10月23日宣布与小马智行、NVIDIA签署合作备忘录，以哈萨克斯坦为首个测试市场，评估通过inDrive提供L4自动驾驶出行的技术、运营、监管与商业可行性。拟由小马提供第七代Robotaxi、inDrive承担平台与运营、NVIDIA提供AI基础设施，首站计划为阿斯塔纳，启动以与哈萨克斯坦政府达成协议为前提。",
+      "reason": "Codex来源核对 · 备忘录与商业运营许可不同；官方未给出已投放车辆数或收入，冬季适应性仍待验证。",
+      "category": "global",
+      "quote": "Kazakhstan will serve as the first test market.",
+      "region": "国外",
+      "tags": [
+        "全球布局",
+        "L4"
+      ]
+    },
+    {
+      "sourceId": "codex-caocao",
+      "sourceName": "曹操出行官方新闻稿",
+      "tier": "T1",
+      "entity": null,
+      "date": "2026-10-23",
+      "url": "https://www.globenewswire.com/news-release/2026/10/23/3387075/0/en/turing-award-laureate-joseph-sifakis-visits-caocao-ai-innovation-center-witnesses-launch-of-trustworthy-ai-research-project-for-robotaxi-curbside-operations.html",
+      "title": "曹操出行披露Robotaxi路边上下客可信决策研究项目",
+      "summary": "曹操出行10月23日新闻稿披露，公司于10月21日启动Robotaxi路边上下客场景的可信决策与多智能体协调研究。项目拟研究临停点使用条件、乘客上下车路径、车辆停车行为与系统协调，并通过仿真和实车测试交叉验证，形成可复用安全证据。Joseph Sifakis到访并提供建议，项目尚未披露验证结果。",
+      "reason": "Codex来源核对 · 保留21日启动、23日披露的日期区别；研究立项不等于安全能力已获证明或已商业部署。",
+      "category": "technology",
+      "quote": "Trustworthy Decision-Making and Multi-Agent Coordination for Robotaxi Curbside Operations",
+      "region": "国内",
+      "tags": [
+        "技术进展",
+        "安全",
+        "仿真",
+        "图像"
+      ],
+      "image": "https://ml.globenewswire.com/Resource/Download/66d7d57d-af7c-4812-91ed-15420008c24e/image1.jpeg"
+    },
+    {
+      "sourceId": "codex-gelonghui",
+      "sourceName": "格隆汇（新浪财经）",
+      "tier": "T2",
+      "entity": "weride",
+      "date": "2026-10-23",
+      "url": "https://finance.sina.com.cn/stock/bxjj/2026-10-23/doc-iniwffen5054909.shtml",
+      "title": "文远知行披露大会接驳与双模型仿真体系，L4车队约3600辆",
+      "summary": "据10月23日大会报道，文远知行投入十余辆Robotaxi与Robobus用于体验和接驳，Robotaxi体验路线接近7公里。公司介绍WITT从道路数据提取与验证物理事实、GENESIS生成仿真场景的研发流程，并披露全球L4车队约3600辆。该车队数字涵盖多种L4产品，并非Robotaxi单一车型或纯无人收费车辆数量。",
+      "reason": "Codex来源核对 · 大会案例入选与公司自述不是独立安全认证；重点记录接驳场景和规模口径，不把荣誉当技术验证结论。",
+      "category": "china",
+      "quote": "L4级自动驾驶车队规模约3,600辆",
+      "region": "国内",
+      "tags": [
+        "国内进展",
+        "中国",
+        "图像"
+      ],
+      "image": "https://n.sinaimg.cn/spider20261023/124/w554h370/20261023/f421-dee2b514f2ea76988b83af00d0560b2a.png"
+    },
+    {
+      "sourceId": "codex-teslanorth",
+      "sourceName": "TeslaNorth",
+      "tier": "T2",
+      "entity": "tesla",
+      "date": "2026-10-23",
+      "url": "https://teslanorth.com/2026/10/23/tesla-robotaxi-austin-1am-cota/",
+      "title": "乘客App截图显示Tesla奥斯汀接单延至凌晨1点，赛道站点仍有受限提示",
+      "summary": "TeslaNorth于10月23日报道，乘客分享的Robotaxi App截图显示奥斯汀末班接单时间延至凌晨1点，并注明仅限附近下客。地图边界扩至美国大奖赛赛道COTA周边，但搜索中的COTALAND及COTA Karting仍显示服务受限，原因尚不明确。报道时Tesla官方账号未确认调整，因此不能据地图认定赛道内全部站点已开放。",
+      "reason": "Codex来源核对 · 这是基于乘客截图的运营观察；凌晨1点为奥斯汀当地时间，不能写成已全天候运营或保证赛事现场可上下客。",
+      "category": "deployment",
+      "quote": "Last call is 1am · Limited to nearby dropoffs",
+      "region": "国外",
+      "tags": [
+        "项目规模",
+        "图像"
+      ],
+      "image": "https://cdn.teslanorth.com/wp-content/uploads/2026/10/tesla-cybercab-robotaxi-school-zone.jpg"
+    }
+  ]
+}
