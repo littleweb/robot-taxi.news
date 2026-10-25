@@ -1,0 +1,25 @@
+{
+  "date": "2026-10-25",
+  "researchedAt": "2026-10-25T00:06:40.126430+00:00",
+  "items": [
+    {
+      "sourceId": "codex-teslanorth",
+      "sourceName": "TeslaNorth",
+      "tier": "T2",
+      "entity": "tesla",
+      "date": "2026-10-24",
+      "url": "https://teslanorth.com/2026/10/24/tesla-engineer-grok-cybercab-rearview-camera/",
+      "title": "Cybercab乘客可调出后视摄像画面，夜间暗屏模式出现体验报道",
+      "summary": "TeslaNorth于10月24日结合乘客照片和工程师公开回复报道，奥斯汀Cybercab乘客可以在行程中打开后方实时摄像画面，工程师称可点击切换更多摄像头并上下滑动显示或隐藏。另有乘客视频展示夜间暗屏的quiet mode。Tesla尚未发布正式更新说明，是否推广至Model Y Robotaxi尚不明确；配图为乘客拍摄的座舱界面。",
+      "reason": "Codex来源核对 · 本期新增为座舱交互体验，不涉及驾驶自动化能力升级。工程师称Grok参与画面调优，尚无独立代码或安全审计资料；X原帖未能直接读取，依据报道与配图交叉核对，不声称已观看完整原始视频。",
+      "category": "technology",
+      "quote": "You can also tap it to see more cameras",
+      "region": "国外",
+      "tags": [
+        "技术进展",
+        "图像"
+      ],
+      "image": "https://cdn.teslanorth.com/wp-content/uploads/2026/10/cybercab-rearview-camera-ride-screen.jpg"
+    }
+  ]
+}
