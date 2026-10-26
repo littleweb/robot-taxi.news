@@ -20,4 +20,4 @@
 
 电脑开机联网、Codex 可运行且登录有效、账号有可用额度，项目目录保持可访问，GitHub 登录具有推送和触发工作流权限。休眠、退出应用或额度耗尽可能导致延迟。若严格要求08:00前完成，应将同一 Codex 任务迁至常驻执行主机并配置告警。
 
-本机 Node24 位于 `/tmp/robotaxi-runtime/node_modules/node/bin`，若该临时目录失效应安装正式 Node >=24.11，勿降低运行版本。GitHub 工作流自动安装Node24。
+新机 Node 24.22.1 由 `~/.local/bin/node` 提供；当前项目要求 Node >=24.22.1，勿降低版本。GitHub 工作流自动安装Node24。PostgreSQL 17工具位于 `~/Applications/Postgres.app/Contents/Versions/17/bin`；本地运行备份相关测试时将其加入PATH。测试仅继承私有配置中的数据库连接并改用专用_test库，不把生产环境关闭的安全阀带入本地假服务测试；不改动生产.env。
