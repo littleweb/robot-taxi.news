@@ -1,0 +1,23 @@
+{
+  "date": "2026-10-26",
+  "researchedAt": "2026-10-26T00:04:22.816142+00:00",
+  "items": [
+    {
+      "sourceId": "codex-usagepricing",
+      "sourceName": "UsagePricing（核对Waymo官方帮助页）",
+      "tier": "T2",
+      "entity": "waymo",
+      "date": "2026-10-25",
+      "url": "https://www.usagepricing.com/blueprint/activity/waymo-2026-10-25-las-vegas-per-mile-fare",
+      "title": "Waymo拉斯维加斯费率公开可查：基础价9.49美元，另计里程与时长",
+      "summary": "UsagePricing于10月25日记录Waymo帮助页出现拉斯维加斯费率：基础价9.49美元，每英里1.23美元、每分钟0.45美元。本次直接读取官方Trip pricing页面确认了三项数值。按5英里、15分钟计算，三项合计22.39美元，但需求变化、机场附加费、通行费及优惠仍会影响最终报价，乘客应以App估价为准。",
+      "reason": "Codex来源核对 · 10月25日为第三方观察日期，不代表Waymo公布的调价生效日；官方页未标注发布日期。官方核对链接：https://support.google.com/waymo/answer/9059184 。本条只适用于拉斯维加斯，不能外推所有城市，也不能据此估算运营利润。",
+      "category": "industry",
+      "quote": "$9.49 + $1.23/mile + $0.45/minute",
+      "region": "国外",
+      "tags": [
+        "行业动态"
+      ]
+    }
+  ]
+}
