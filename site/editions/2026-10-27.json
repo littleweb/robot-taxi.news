@@ -1,0 +1,67 @@
+{
+  "date": "2026-10-27",
+  "researchedAt": "2026-10-27T00:02:17.996168+00:00",
+  "items": [
+    {
+      "sourceId": "codex-xpeng",
+      "sourceName": "小鹏汽车官方",
+      "tier": "T1",
+      "entity": null,
+      "date": "2026-10-26",
+      "url": "https://www.xpeng.com/pressroom/news/01a1780feba5a12024aa8a02829e04fd",
+      "title": "小鹏Robotaxi获广州L4示范运营资质，初期继续邀请码开放",
+      "summary": "小鹏10月26日宣布取得广州智能网联汽车示范应用运营资格，可开展L4 Robotaxi示范运营，进入订单响应、调度、接送及异常处理等真实需求验证阶段。公司表示初期仍将通过邀请码逐步开放。其商业定位侧重向合作伙伴提供整车、软件与AI方案，通过硬件销售、技术服务和分成获得收入。",
+      "reason": "Codex来源核对 · 示范运营资格不等于已在广州全域开放收费无人服务；官方未给出实际投放规模、收费订单或无安全员范围，本期不补写这些数字。",
+      "category": "china",
+      "quote": "During the initial phase, XPENG Robotaxi will continue to gradually open access via invitation codes",
+      "region": "国内",
+      "tags": [
+        "国内进展",
+        "中国",
+        "L4",
+        "图像"
+      ],
+      "image": "https://s-cdn.xpeng.com/commoncms/prod/2026-10-26/9412cc62235c4cf1b1e9d24061ce24f3.jpg"
+    },
+    {
+      "sourceId": "codex-teslanorth",
+      "sourceName": "TeslaNorth",
+      "tier": "T2",
+      "entity": "tesla",
+      "date": "2026-10-26",
+      "url": "https://teslanorth.com/2026/10/26/tesla-robotaxi-houston-starship-map/",
+      "title": "Tesla扩展休斯敦Robotaxi服务区，地图延伸至市中心和Bellaire",
+      "summary": "TeslaNorth报道，Tesla官方Robotaxi账号10月26日发布新旧地图，宣布休斯敦更大的服务区已开放。新边界从西北部延伸经过市中心至Bellaire一带。官方未在该公告中提供面积、运营时段变化或可用车辆数；实际可达路线和上下客点仍应以App为准。",
+      "reason": "Codex来源核对 · 与奥斯汀赛道周边扩区分属不同城市；X原帖直接读取受限，核对了TeslaNorth及Electrek引用的同一公告和地图，不采用众包车队数当作官方运营规模。",
+      "category": "deployment",
+      "quote": "Bigger service area now live",
+      "region": "国外",
+      "tags": [
+        "项目规模",
+        "图像"
+      ],
+      "image": "https://cdn.teslanorth.com/wp-content/uploads/2026/10/featured-tesla-robotaxi-houston.jpg"
+    },
+    {
+      "sourceId": "codex-evwire",
+      "sourceName": "EVwire／Munro Live原视频",
+      "tier": "T2",
+      "entity": "tesla",
+      "date": "2026-10-26",
+      "url": "https://evwire.com/p/munro-live-tesla-cybercab-deep-dive-video",
+      "title": "Munro Live发布Cybercab产线长访谈，Tesla称制造速度暂快于部署",
+      "summary": "EVwire于10月26日整理Munro Live新发布的Cybercab工程与制造长访谈。Tesla工程负责人在访谈中称，当前产线制造速度快于车辆部署速度，因此并非每天开线。内容涉及分模块制造、总装、动力与热管理。该说法是公司高管对当前生产节奏的描述，不能据此推算实际日产量或盈利。",
+      "reason": "Codex来源核对 · 已通过YouTube官方oEmbed核对原视频标题与发布者Munro Live，并与TeslaNorth的访谈报道交叉核对要点；未逐帧观看整段视频。生产能力、实际产量、投放与收费运营分别计量。",
+      "category": "technology",
+      "quote": "Tesla Cybercab Deep Dive: Inside the Engineering with Lars Moravy and Team",
+      "region": "国外",
+      "tags": [
+        "技术进展",
+        "视频",
+        "图像"
+      ],
+      "video": "https://www.youtube.com/watch?v=UIrK8oStl-0",
+      "image": "https://i.ytimg.com/vi/UIrK8oStl-0/hqdefault.jpg"
+    }
+  ]
+}
