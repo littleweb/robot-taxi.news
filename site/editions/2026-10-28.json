@@ -1,0 +1,77 @@
+{
+  "date": "2026-10-28",
+  "researchedAt": "2026-10-28T00:22:01.281177+00:00",
+  "items": [
+    {
+      "sourceId": "waymo-blog",
+      "sourceName": "Waymo 官方",
+      "tier": "T1",
+      "entity": "waymo",
+      "date": "2026-10-27",
+      "url": "https://waymo.com/blog/shorts/more-places/",
+      "title": "Waymo将在一周内扩展五地服务区，合计新增近250平方英里",
+      "summary": "Waymo于10月27日宣布，未来一周将在洛杉矶、纳什维尔、奥兰多、圣迭戈及旧金山湾区扩大覆盖，合计近250平方英里。新增地点包括Torrance、La Jolla和Berryessa BART站等，奥兰多东部覆盖将接近翻倍。具体开放范围和可用时间以App及服务区地图为准。",
+      "reason": "Codex来源核对 · 这是一周内陆续扩区的计划，不写成五地全部即时开放；面积增加不是车队或订单同步增长的证据。",
+      "category": "deployment",
+      "quote": "adding nearly 250 square miles of territory",
+      "region": "国外",
+      "tags": [
+        "项目规模",
+        "图像"
+      ],
+      "image": "https://lh3.googleusercontent.com/tc93TUYWzuFkTBKJvCOTIaWvQvmerE8jenMnCbN25W6fU0vrPBxvX_J7mmP1-122YIk1_SRcV9TOZ9mrOG7_qCjADx4YQ0cpE_Jq6-tTRbdcB2LgSg=e365-s420"
+    },
+    {
+      "sourceId": "codex-weride-official",
+      "sourceName": "文远知行官方",
+      "tier": "T1",
+      "entity": "weride",
+      "date": "2026-10-27",
+      "url": "https://weride.ai/posts/biattn97stv832dptkkn9xss",
+      "title": "文远知行启动全球保险合作计划，平安产险与新加坡安联首批加入",
+      "summary": "文远知行10月27日宣布全球保险合作计划，首批伙伴为新加坡安联和平安产险，将按各地要求联合开发L4车辆责任、产品责任及隐私与网络风险保障。公告称，平安方案已支持北京、广州、阿布扎比和迪拜的Robotaxi运营；新加坡Ai.R截至10月服务超过1.3万名独立乘客，累计自动驾驶超过13.5万公里。",
+      "reason": "Codex来源核对 · 公告未公开保费、赔付率或统一全球保单，不将合作等同于已降低成本或获得新增上路许可；乘客数指独立乘客，不是订单数。",
+      "category": "industry",
+      "quote": "Allianz Insurance Singapore and Ping An P&C Insurance as inaugural partners",
+      "region": "国内",
+      "tags": [
+        "行业动态",
+        "安全"
+      ]
+    },
+    {
+      "sourceId": "codex-arlnow",
+      "sourceName": "ARLnow",
+      "tier": "T2",
+      "entity": "waymo",
+      "date": "2026-10-27",
+      "url": "https://www.arlnow.com/2026/10/27/new-waymo-mapping-vehicles-spotted-in-arlington-neighborhoods/",
+      "title": "Waymo确认在北弗吉尼亚测绘，阿灵顿住宅街区出现车辆",
+      "summary": "ARLnow于10月27日报道，记者与读者近期在阿灵顿住宅街区看到Waymo测绘车辆，公司发言人确认正在北弗吉尼亚测绘并推动州级法规框架，但没有可公布的服务启动计划。报道回顾了5月已开始的人类驾驶测绘，表明此次属于持续准备，并非首次进入当地或宣布商用。",
+      "reason": "Codex来源核对 · 不把测绘车辆等同于无人载客。报道配图为2025年旧图，本期未当作新现场照片使用；相关立法预期不能冒充已生效法律。",
+      "category": "global",
+      "quote": "We are currently mapping in Northern Virginia",
+      "region": "国外",
+      "tags": [
+        "全球布局"
+      ]
+    },
+    {
+      "sourceId": "codex-drivetesla",
+      "sourceName": "Drive Tesla",
+      "tier": "T2",
+      "entity": "tesla",
+      "date": "2026-10-27",
+      "url": "https://driveteslacanada.ca/news/tesla-cybercabs-outnumber-model-y-texas-robotaxi-fleet/",
+      "title": "媒体据得州登记册统计：Cybercab登记量超过Model Y",
+      "summary": "Drive Tesla于10月27日引述TxDMV登记册报道，Tesla Robotaxi在得州登记车辆合计1051辆，其中Cybercab 544辆、Model Y 507辆，当日上午新增81辆Cybercab登记。报道明确登记不等于车辆正在载客；数字仅代表该日报道时的得州登记快照，不能分配给具体城市。",
+      "reason": "Codex来源核对 · 原登记页可打开但当前工具未返回车辆表，数量按媒体统计归因，未独立复算；不与众包活跃车队数混用，不据此判断订单或盈利。",
+      "category": "deployment",
+      "quote": "registration does not necessarily mean a vehicle is actively carrying passengers",
+      "region": "国外",
+      "tags": [
+        "项目规模"
+      ]
+    }
+  ]
+}
