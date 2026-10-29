@@ -1,0 +1,62 @@
+{
+  "date": "2026-10-29",
+  "researchedAt": "2026-10-29T00:00:36.322176+00:00",
+  "items": [
+    {
+      "sourceId": "waymo-blog",
+      "sourceName": "Waymo 官方",
+      "tier": "T1",
+      "entity": "waymo",
+      "date": "2026-10-28",
+      "url": "https://waymo.com/blog/shorts/waymo-and-ramp/",
+      "title": "Waymo企业出行接入Ramp，行程收据可自动匹配费用",
+      "summary": "Waymo于10月28日宣布，Waymo for Business与企业费用管理平台Ramp集成。员工乘车后，收据可自动关联对应支出，减少人工查找和上传；已使用Ramp的企业可联系Waymo启用。Waymo未披露该集成带来的新增客户、订单或收入。",
+      "reason": "Codex来源核对 · 企业报销流程是运营配套进展，不等于新城市开通或车队规模扩张。",
+      "category": "industry",
+      "quote": "Waymo for Business is integrated with Ramp",
+      "region": "国外",
+      "tags": [
+        "行业动态",
+        "图像"
+      ],
+      "image": "https://lh3.googleusercontent.com/Y66k9cAJPhgjhNidbAVmT_tCDYzt85SMvcDK9yLtb4WXOAFBGqgrLStDxATKMjNSAOn57bJ60bzmgLZmOxWJUo8Q1THb7t5XMvIWaSfOF31VzI0j7Q=e365-s420"
+    },
+    {
+      "sourceId": "codex-electrek",
+      "sourceName": "Electrek",
+      "tier": "T2",
+      "entity": "tesla",
+      "date": "2026-10-28",
+      "url": "https://electrek.co/2026/10/28/tesla-robotaxi-houston-rocket-service-area-fake/",
+      "title": "休斯敦Robotaxi扩区后，乘客测试发现地图内部分地点无法上车",
+      "summary": "Electrek于10月28日援引Robotaxi Tracker创建者的App测试：在Tesla此前公布的休斯敦扩区地图内，市中心一个选定上车点显示不可用。报道另举两街区行程绕行约40分钟的报价。测试者推测系统可能避开铁路道口，原因未获Tesla证实。",
+      "reason": "Codex来源核对 · 这是对10月27日日报休斯敦扩区报道的具体补充：地图边界不保证边界内每个地点都能上车；单次测试不能证明全部服务区均不可用。原X视频未能直接读取。",
+      "category": "deployment",
+      "quote": "Location not available. Move the map to select a different location.",
+      "region": "国外",
+      "tags": [
+        "项目规模",
+        "图像"
+      ],
+      "image": "https://electrek.co/wp-content/uploads/sites/3/2026/10/tesla-robotaxi-houston-geofence-rocket-map.jpg?quality=82&strip=all&w=1600"
+    },
+    {
+      "sourceId": "codex-cls-tech",
+      "sourceName": "科创板日报（新浪新闻）",
+      "tier": "T2",
+      "entity": "baidu",
+      "date": "2026-10-28",
+      "url": "https://k.sina.com.cn/article_2868676035_aafc85c302001z2sq.html",
+      "title": "媒体称百度拟披露世界模型研发进展，自动驾驶用途尚未确定",
+      "summary": "科创板日报10月28日报道，百度计划近期披露世界模型研发进展。报道提及自动驾驶可能是应用方向之一，同时明确具体用途以及与萝卜快跑的关系尚不清楚，百度截至发稿未予置评。",
+      "reason": "Codex来源核对 · 保留媒体独家消息的未证实状态；尚无模型名称、技术指标、发布时间或Robotaxi部署证据，不把推测写成产品发布。",
+      "category": "technology",
+      "quote": "截至发稿，百度未予置评",
+      "region": "国内",
+      "tags": [
+        "技术进展",
+        "中国"
+      ]
+    }
+  ]
+}
