@@ -1,0 +1,62 @@
+{
+  "date": "2026-10-30",
+  "researchedAt": "2026-10-30T00:00:24.962785+00:00",
+  "items": [
+    {
+      "sourceId": "codex-36kr",
+      "sourceName": "36氪",
+      "tier": "T2",
+      "entity": null,
+      "date": "2026-10-29",
+      "url": "https://www.36kr.com/newsflashes/4046298809602949",
+      "title": "上海出租汽车条例草案征求意见，提出推动自动驾驶安全应用",
+      "summary": "36氪10月29日报道，《上海市出租汽车条例（草案）》公开征求意见，草案提出依法有序推动自动驾驶技术在出租汽车行业的安全应用，并由交通、公安等部门依法加强指导和服务。",
+      "reason": "Codex来源核对 · 这是征求意见阶段的政策草案，不等于条例已通过，也不意味着新增商业运营许可。报道所链上海人大原文暂无法读取。",
+      "category": "industry",
+      "quote": "依法有序推动自动驾驶技术在出租汽车行业的安全应用",
+      "region": "国内",
+      "tags": [
+        "行业动态",
+        "中国"
+      ]
+    },
+    {
+      "sourceId": "codex-aseon",
+      "sourceName": "Aseon Labs（NewMediaWire）",
+      "tier": "T1",
+      "entity": null,
+      "date": "2026-10-29",
+      "url": "https://www.newmediawire.com/news/aseon-labs-unveils-world-s-first-portable-fleet-neutral-robotic-pit-stop-for-autonomous-vehicles-7090939",
+      "title": "Aseon Labs展示首台自动驾驶车队机器人服务舱，正在测试",
+      "summary": "Aseon Labs宣布完成首台可移动机器人服务舱，计划在车队运营区域提供充电、车内清洁和车辆检查等服务。公司称设备正在测试；公告未给出客户投放地点、吞吐量、收费或实际节省成本的数据。",
+      "reason": "Codex来源核对 · 设施面向Robotaxi车队后勤；这是企业发布的测试阶段进展，尚无独立证据证明规模化运营及效益。",
+      "category": "technology",
+      "quote": "The completed unit is now undergoing testing",
+      "region": "国外",
+      "tags": [
+        "技术进展",
+        "图像"
+      ],
+      "image": "https://iprsoftwaremedia.com/270/files/202610/9073704c5418ecf2844cdfe74d8b0d88/6ae3432ded6ae50868738e40_5fe21918c5259c79_6ae33bf5da846f1970288f28_/5fe21918c5259c79_6ae33bf5da846f1970288f28__hero.jpg?v=1262ab83-4bf7-4665-aa65-cb727bcc90c3"
+    },
+    {
+      "sourceId": "codex-notateslaapp",
+      "sourceName": "Not a Tesla App",
+      "tier": "T2",
+      "entity": "tesla",
+      "date": "2026-10-29",
+      "url": "https://www.notateslaapp.com/news/4917/tesla-offers-free-robotaxi-rides-for-first-time-riders",
+      "title": "测试者称Tesla Robotaxi在休斯敦和达拉斯显示首次免费乘车",
+      "summary": "据Not a Tesla App报道，Robotaxi Tracker创建者在App预订页面看到首次乘车免费和零美元报价。他表示测试时休斯敦和达拉斯出现该优惠，奥斯汀未出现；优惠限制和是否扩展到其他城市尚不明确。",
+      "reason": "Codex来源核对 · 信息来自第三方App测试，Tesla尚未公布活动细则；不把个别测试结果视为所有乘客均可使用。原X截图未独立读取。",
+      "category": "deployment",
+      "quote": "First ride on us",
+      "region": "国外",
+      "tags": [
+        "项目规模",
+        "图像"
+      ],
+      "image": "https://www.notateslaapp.com/img/containers/article_images/robotaxi/robotaxi_rear_screen.jpg/3257c5dc37ca7ed182205ae77ec677a9/robotaxi_rear_screen.jpg"
+    }
+  ]
+}
